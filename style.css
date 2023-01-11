@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'proxima';
+    src: url(./fonts/Proxima\ Nova\ Font.otf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fbfbfb;
+}
+
+.container {
+    /* border: 2px solid green; */
+    width: 60%;
+    margin: 10px auto;
+    padding: 17px 8px 17px 8px;
+    display: block;
+}
+
+.formright {
+    border: 1px solid lightgrey;
+    text-align: center;
+    height: 410px;
+    background-color: white;
+    margin-top: 14px;
+}
+
+.imgleft {
+    display: inline-block;
+    width: 48%;
+}
+
+.form {
+    display: inline-block;
+    width: 44%;
+    /* border: 2px solid green; */
+    vertical-align: top;
+    height: 587px;
+    margin-left: 17px;
+    padding: 0px 8px 8px 8px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.emailinp {
+    /* border: 2px solid green; */
+    margin: 4px 4px 0px 4px;
+    padding: 2px;
+}
+
+.emailinp input {
+    border-radius: 3px;
+    padding: 13px;
+    width: 252px;
+    background-color: white;
+    font-size: 11px;
+    border: 1px solid lightgrey;
+    font-family:   sans-serif;
+}
+
+.passinp {
+    /* border: 2px solid green; */
+    margin: 4px 4px 0px 4px;
+    padding: 2px;
+}
+
+.passinp input {
+    border-radius: 3px;
+    padding: 13px;
+    width: 252px;
+    background-color: white;
+    font-size: 11px;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+}
+
+#btn {
+    /* border: 2px solid green; */
+    width: 278px;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: rgb(94, 185, 238);
+    color: white;
+    margin: 12px 4px 0px 4px;
+    border: none;
+    font-family: 'proxima';
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.line {
+    display: block;
+    /* border: 2px solid green; */
+    margin: 14px 4px 0px 4px;
+}
+
+.lineh1 {
+    text-align: center;
+    display: inline-block;
+    width: 109px;
+    color: lightgrey;
+    margin: 0px 16px 0px 0px;
+
+}
+
+hr {
+    margin: 0px 0px 3px 0px;
+}
+
+.lineh2 {
+    text-align: center;
+    display: inline-block;
+    width: 109px;
+    color: lightgrey;
+    margin: 0px 0px 0px 16px;
+}
+
+span {
+    font-family: fangsong;
+    font-size: 13px;
+    color: rgb(139, 136, 136);
+}
+
+.links {
+    /* border: 2px solid blue; */
+    margin: 20px 4px 0px 4px;
+    padding: 4px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links img {
+    width: 22px;
+    height: 23px;
+}
+
+.links div {
+    display: inline-block;
+}
+
+.image {
+    position: relative;
+    top: 6px;
+    right: 2px;
+}
+
+.signupp {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    margin: 10px 0px 0px 0px;
+    width: 343px;
+    text-align: center;
+    background-color: white;
+    padding: 6px;
+}
+
+.signupp a {
+    text-decoration: none;
+    color: rgb(94, 185, 238);
+    font-weight: bold;
+    font-family: 'proxima';
+}
+
+.signupp p {
+    font-family: 'proxima';
+    font-size: 14px;
+}
+
+.paraa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paraa p {
+    font-family: 'proxima';
+    font-size: 14px;
+}
+.container2 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#google {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+#microsoft {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#facebooklogin {
+    color: rgb(10, 10, 122);
+    font-family: 'proxima';
+    font-size: 14px;
+}
+
+#forgottenpass {
+    color: rgb(40, 40, 117);
+    font-family: 'proxima';
+    font-size: 12px;
+}
+.extralinks{
+    display: block;
+    text-align: center;
+}
+.extralinks div{
+    display: inline-block;
+    margin: 16px 6px 6px 6px;
+}
+.extralinks a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-family: 'proxima';
+}
+.extralinks a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+.copyright div{
+    display: inline-block;
+    padding: 8px;
+}
+.copyright select{
+    border: none;
+    color: gray;
+    outline: 0px;
+    font-size: 12px;
+}
+.copyright option{
+    font-size: 12px;
+}
